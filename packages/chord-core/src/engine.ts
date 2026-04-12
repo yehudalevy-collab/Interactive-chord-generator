@@ -86,9 +86,11 @@ export class ChordEngine {
     Tone.Transport.cancel();
     Tone.Transport.bpm.value = tempo;
 
-    this.activePart = new Tone.Part((time, value) => {
-      instrument.triggerAttackRelease(value.labels, value.duration, time, 0.92);
-    });
+    this.activePart = new Tone.Part<{ labels: string[]; duration: number }>(
+      (time, value: { labels: string[]; duration: number }) => {
+        instrument.triggerAttackRelease(value.labels, value.duration, time, 0.92);
+      }
+    );
 
     events.forEach((event) => {
       this.activePart?.add(event.timeSeconds, {
