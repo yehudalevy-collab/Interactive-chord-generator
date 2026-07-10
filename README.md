@@ -76,6 +76,8 @@ Output lands in `apps/web/dist`.
 npm run test
 ```
 
+See [CONTRIBUTING.md](CONTRIBUTING.md) for monorepo boundaries, validation commands, and pull request notes.
+
 ## Using the standalone package
 
 The core logic is published separately so you can use chord detection, MIDI helpers, and playback in your own projects without pulling in the React UI.
