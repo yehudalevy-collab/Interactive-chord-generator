@@ -1,6 +1,6 @@
 # Interactive Chord Generator
 
-[![ci](https://github.com/yehudalevy-collab/Interactive-chord-generator/actions/workflows/ci.yml/badge.svg)](https://github.com/yehudalevy-collab/Interactive-chord-generator/actions/workflows/ci.yml)
+[![ci](https://github.com/ymxlx/Interactive-chord-generator/actions/workflows/ci.yml/badge.svg)](https://github.com/ymxlx/Interactive-chord-generator/actions/workflows/ci.yml)
 
 A browser-based music workspace for building chords from individual notes, shaping them with voicing controls, auditioning them through four synthesized instruments, and arranging them into loopable progressions — all powered by the Web Audio API.
 
@@ -54,7 +54,7 @@ A browser-based music workspace for building chords from individual notes, shapi
 ### Install and run
 
 ```bash
-git clone https://github.com/yehudalevy-collab/Interactive-chord-generator.git
+git clone https://github.com/ymxlx/Interactive-chord-generator.git
 cd Interactive-chord-generator
 npm install
 npm run dev
@@ -139,7 +139,7 @@ See [`packages/chord-core/README.md`](./packages/chord-core/README.md) for the f
 
 ## Author
 
-**Yehuda Levy** — [github.com/yehudalevy-collab](https://github.com/yehudalevy-collab)
+**Yehuda Levy** — [github.com/ymxlx](https://github.com/ymxlx)
 
 ## License
 
