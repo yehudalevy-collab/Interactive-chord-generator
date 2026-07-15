@@ -37,12 +37,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yehudalevy-collab/Interactive-chord-generator.git",
+    "url": "git+https://github.com/ymxlx/Interactive-chord-generator.git",
     "directory": "packages/chord-core"
   },
-  "homepage": "https://github.com/yehudalevy-collab/Interactive-chord-generator#readme",
+  "homepage": "https://github.com/ymxlx/Interactive-chord-generator#readme",
   "bugs": {
-    "url": "https://github.com/yehudalevy-collab/Interactive-chord-generator/issues"
+    "url": "https://github.com/ymxlx/Interactive-chord-generator/issues"
   },
   "dependencies": {
     "tone": "^15.1.22"
